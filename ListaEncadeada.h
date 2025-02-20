@@ -21,6 +21,9 @@ Lista *AlocaMemoria();
 void DesalocaMemoria( Lista **ptr );
 void InsereFinal( Lista **ptr, int numero );
 void ExibeLista( Lista *ptr );
+int RetornaInteiro();
+Lista *RetornaPosicao( Lista *ptr );
+void VerificaBusca( Lista *ptr );
 
 
 #endif

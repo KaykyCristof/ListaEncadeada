@@ -6,7 +6,13 @@ int main()
 	
 	IniciaLista( &ptr );
 	
+	InsereFinal( &ptr, 1 );
+	InsereFinal( &ptr, 2 );
+	InsereFinal( &ptr, 3 );
 	
+	VerificaBusca( ptr );
+	
+	DesalocaMemoria( &ptr );
 	
 	
 	
